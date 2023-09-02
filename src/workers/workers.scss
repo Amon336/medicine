@@ -62,3 +62,24 @@
         }
     }
 }
+
+@media(max-height:500px) {
+    .workers-grid {
+        -ms-grid-columns: 90%;
+        grid-template-columns: 50%;
+        .worker {
+            height: 175px;
+            h1 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+            }
+            a {
+                font-size: 9px;
+                padding: 10px 0;
+                width: 100px;
+            }
+        }
+    }   
+}

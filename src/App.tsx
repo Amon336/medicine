@@ -1,7 +1,6 @@
 import React from 'react';
 import { Navigation } from './NavBar/navigation';
-import mainLogo from './img/Frame 78 1.svg'
-import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Prices } from './prices/prices';
 import { Home } from './Home/home';
 import { Workers } from './workers/workers';

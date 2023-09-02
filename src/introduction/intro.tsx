@@ -18,7 +18,7 @@ export function Intro() {
                     <Route path='5' element={<Intro5 />} />
                     <Route path='6' element={<Intro6 />} />
                 </Routes>
-                <a href="https://wa.me/+77052727775" className="IntroBtn" target='_blank'>Записаться</a>
+                <a href="https://wa.me/+77052727775" className="IntroBtn" target='_blank' rel="noreferrer">Записаться</a>
                 <div className='intro-links'>
                     <Link to='1'>1</Link>
                     <Link to='2'>2</Link>

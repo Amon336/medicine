@@ -86,7 +86,7 @@ function PriceSection(props : PriceSectionInterface) {
             <div className='announcement' style={{top : announcementPos }}>
                 <h1>Вы хотите записаться на {title} ?</h1>
                 <div className='announcement-buttons'>
-                    <a href={whatsappURL} target='_blank'>Да</a>
+                    <a href={whatsappURL} target='_blank' rel="noreferrer" >Да</a>
                     <button onClick={() => setAnnouncPos('150%')}>Нет</button>
                 </div>
                 <img src={iconsBG} alt="" />

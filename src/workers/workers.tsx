@@ -58,7 +58,7 @@ function Worker(props : workerInterface) {
                 price
             }
             </p>
-            <a href={whatsappURL} target="_blank">Записаться</a>
+            <a href={whatsappURL} target="_blank" rel="noreferrer">Записаться</a>
         </div>
     )
 }

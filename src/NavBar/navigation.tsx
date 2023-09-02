@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import logo from '../img/Frame 333.svg'
 import './navigation.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faX, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { useEffect, useState } from 'react';
+import { faBars, faX} from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 import { useWindowSize } from 'react-use';
 
 export function Navigation() {
@@ -36,11 +36,11 @@ export function Navigation() {
                     <Link to='/prices/1'>Цены</Link>
                     <Link to='/advertisement'>Акции</Link>
                     <div>
-                        <a href={link} target='_blank' id='tel'><h4><span>+7 (705)</span> 272-77-75</h4></a>
+                        <a href={link} target='_blank' rel="noreferrer" id='tel'><h4><span>+7 (705)</span> 272-77-75</h4></a>
                         <p>Пн-Пт с 00:00 до 00:00 <br />
                         СБ и ВС с 00:00 до 00:00</p>
                     </div>
-                    <a href={'https://wa.me/+77052727775'} target='_blank' id='btn'><span>Записаться</span></a>
+                    <a href={'https://wa.me/+77052727775'} target='_blank' rel="noreferrer" id='btn'><span>Записаться</span></a>
                     <button onClick={buttonFunction}><FontAwesomeIcon icon={icon} /> Меню</button>
                 </nav>
                 <div className='mobile nav-list' style={{height : listHeight}}>
